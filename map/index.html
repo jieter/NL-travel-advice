@@ -80,7 +80,7 @@
 		};
 
 		info.update = function (props) {
-			if (poly && map && map.hasLayer(poly)) {
+			if (poly && map && map.hasLayer(poly) && poly.bringToFront) {
 				poly.bringToFront();
 			}
 			this._div.innerHTML = '<h4>Travel advice Dutch foreign affairs</h4>' +  (props ?
@@ -117,10 +117,10 @@
 
 		function style(feature) {
 			var s = {
-				weight: 2,
+				weight: 1,
 				opacity: 1,
 				color: '#666',
-				dashArray: '3',
+				dashArray: [1, 4],
 			};
 			var color = getColor(feature.properties.advice);
 			if (color) {
@@ -137,7 +137,7 @@
 			var layer = e.target;
 
 			layer.setStyle({
-				weight: 5,
+				weight: 2,
 				color: '#666',
 				dashArray: '',
 				fillOpacity: 0.7

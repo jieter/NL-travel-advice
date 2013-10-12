@@ -6,6 +6,15 @@ module.exports = new (function () {
 	var list = JSON.parse(fs.readFileSync('iso-3166-1.json', 'utf8'));
 
 	list = list.Results;
+	list['SDS'] = {
+		Name: 'South Sudan',
+		CountryCodes: {
+			iso3: 'SDS'
+		},
+		Names: {
+			nl: 'Zuid-Sudan'
+		}
+	}
 
 	var test = function (a, b) {
 		var transform = function (s) {

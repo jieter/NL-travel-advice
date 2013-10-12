@@ -57,7 +57,7 @@ function countries(callback) {
 	var url = base + '/onderwerpen/reisadviezen/inhoud';
 
 	load(url, function ($) {
-		var result = [];
+		var result = {};
 		$('#content li a').each(function () {
 			var a = $(this);
 			var country = {
@@ -78,8 +78,10 @@ function countries(callback) {
 			load(country.originalUrl, function ($) {
 				var advice = $('#content .travel-advice').text();
 				country.advice = advice;
-				result.push(country);
-				callback(result);
+				if (country.id) {
+					result[country.id] = country;
+					callback(result);
+				}
 			});
 
 		});

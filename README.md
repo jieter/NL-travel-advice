@@ -7,4 +7,9 @@ topojson -q 1e4 -s 1e-6 --id-property iso_a3 world_50m.geojson > world_50m.topoj
 
 ## Idea
 
-Collapse island groups to bounding box
+- Collapse island groups to bounding box.
+
+
+## Missing/disputed regions
+ - Somaliland region
+ - Western Sahara region

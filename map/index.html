@@ -63,16 +63,16 @@
 	<script src="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet-src.js"></script>
 	<script src="Polyline.encoded.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
 	<script src="topojson.js"></script>
+	<script src="leaflet-hash.js"></script>
 
 	<script type="text/javascript">
 
 		var map = L.map('map', {
 			zoomControl: !L.Browser.touch
 		}).fitBounds([[-1, -180], [1, 180]]);
-
-		var poly;
+		var hash = L.hash(map);
 
 		var baselayer = L.tileLayer('http://services.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}', {
 			attribution: 'Tiles &copy; Esri &mdash; National Geographic, Esri, DeLorme, NAVTEQ, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, iPC',
@@ -88,9 +88,6 @@
 				return this._div;
 			},
 			update: function (props) {
-				if (poly && map && map.hasLayer(poly) && poly.bringToFront) {
-					poly.bringToFront();
-				}
 				this._div.innerHTML = '<h4>Travel advice Dutch foreign affairs <a href="http://www.rijksoverheid.nl/onderwerpen/reisadviezen/inhoud">source</a></h4>' +  (props ?
 					'<strong>' + props.name + '</strong><br />' +
 					props.advice

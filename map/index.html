@@ -55,68 +55,64 @@
 	<script src="Polyline.encoded.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+	<script src="topojson.js"></script>
 
 	<script type="text/javascript">
 
-		var map = L.map('map').setView([40, 0], 2);
+		var map = L.map('map').fitBounds([[-1, -180], [1, 180]]);
 		var poly;
 
-		var baselayer = L.tileLayer('http://{s}.tile.stamen.com/watercolor/{z}/{x}/{y}.jpg', {
-			attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
-			subdomains: 'abcd',
-			minZoom: 2,
-			maxZoom: 16,
-			opacity: 0.6
+		var baselayer = L.tileLayer('http://services.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}', {
+			attribution: 'Tiles &copy; Esri &mdash; National Geographic, Esri, DeLorme, NAVTEQ, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, iPC',
+			maxZoom: 16
 		}).addTo(map);
 
 
 		// control that shows state info on hover
-		var info = L.control();
-
-		info.onAdd = function (map) {
-			this._div = L.DomUtil.create('div', 'info');
-			this.update();
-			return this._div;
-		};
-
-		info.update = function (props) {
-			if (poly && map && map.hasLayer(poly) && poly.bringToFront) {
-				poly.bringToFront();
+		var info = L.extend(L.control(), {
+			onAdd: function (map) {
+				this._div = L.DomUtil.create('div', 'info');
+				this.update();
+				return this._div;
+			},
+			update: function (props) {
+				if (poly && map && map.hasLayer(poly) && poly.bringToFront) {
+					poly.bringToFront();
+				}
+				this._div.innerHTML = '<h4>Travel advice Dutch foreign affairs <a href="http://www.rijksoverheid.nl/onderwerpen/reisadviezen/inhoud">source</a></h4>' +  (props ?
+					'<strong>' + props.name + '</strong><br />' +
+					props.advice
+					: 'Hover over a country');
 			}
-			this._div.innerHTML = '<h4>Travel advice Dutch foreign affairs <a href="http://www.rijksoverheid.nl/onderwerpen/reisadviezen/inhoud">source</a></h4>' +  (props ?
-				'<strong>' + props.name + '</strong><br />' +
-				props.advice
-				: 'Hover over a country');
-		};
-
-		info.addTo(map);
-
+		}).addTo(map);
 
 		// get color depending on population density value
 		function getColor(advice) {
 			if (!advice) {
 				return null;
 			}
-			switch(advice.trim()) {
-			case "Alle reizen worden ontraden": 
-			case "Alle reizen naar bepaalde gebieden worden ontraden": 
+			switch (advice.trim()) {
+			case "Alle reizen worden ontraden":
+			case "Alle reizen naar bepaalde gebieden worden ontraden":
 				return '#ff0000';
 
-			case 'Niet-essentiële reizen worden ontraden': 
-			case 'Niet-essentiële reizen naar bepaalde gebieden worden ontraden': 
+			case 'Niet-essentiële reizen worden ontraden':
+			case 'Niet-essentiële reizen naar bepaalde gebieden worden ontraden':
 				return '#FF7F00';
 
-			case "Extra waakzaamheid betrachten": 
-			case "Waakzaamheid betrachten": 
+			case "Extra waakzaamheid betrachten":
+			case "Waakzaamheid betrachten":
 				return '#aaff00';
 
-			case "Geen bijzondere veiligheidsrisico's": return '#00aa00';
-			case '': return '#000000';
+			case "Geen bijzondere veiligheidsrisico's":
+				return '#00aa00';
+			default:
+				return '#000000';
 			}
 		}
 
 		function style(feature) {
-			var s = {
+			var style = {
 				weight: 1,
 				opacity: 1,
 				color: '#666',
@@ -124,13 +120,12 @@
 			};
 			var color = getColor(feature.properties.advice);
 			if (color) {
-				L.extend(s, {
-					fillOpacity: 0.5,
+				L.extend(style, {
+					fillOpacity: 0.4,
 					fillColor: color
 				});
 			}
-
-			return s;
+			return style;
 		}
 
 		function highlightFeature(e) {
@@ -140,50 +135,51 @@
 				weight: 2,
 				color: '#666',
 				dashArray: '',
-				fillOpacity: 0.7
+				fillOpacity: 0.6
 			});
 
 			info.update(layer.feature.properties);
-
-			if (!L.Browser.ie && !L.Browser.opera) {
-				layer.bringToFront();
-			}
-
 		}
 
 		var geojson;
 
-		function resetHighlight(e) {
-			geojson.resetStyle(e.target);
-			info.update();
-		}
-
-		function zoomToFeature(e) {
-			map.fitBounds(e.target.getBounds());
-		}
-
-		function onEachFeature(feature, layer) {
-			layer.on({
-				mouseover: highlightFeature,
-				mouseout: resetHighlight,
-				click: zoomToFeature
-			});
-		}
 		$.getJSON('../NL-travel-advice.json', function (travel_advice) {
 			geojson = L.geoJson(null, {
 				style: style,
-				onEachFeature: onEachFeature
+				onEachFeature: function onEachFeature(feature, layer) {
+					layer.on({
+						'mouseover dblclick': highlightFeature,
+						mouseout: function resetHighlight(e) {
+							geojson.resetStyle(e.target);
+							info.update();
+						}
+					});
+				}
 			}).addTo(map);
+
 			$.ajax({
-				url: 'world.geojson',
+				url: 'world_50m.topojson',
 				dataType: 'json',
 				success: function (data) {
-					data.features.forEach(function (country) {
+					var world = topojson.feature(data, data.objects.world_50m);
+
+					world.features.forEach(function (country) {
 						L.extend(country.properties, travel_advice[country.id], {
 							id: country.id
 						});
-
-						geojson.addData(country).bringToBack();
+						// 'fix' geometry of Russia and Fuji
+						if (country.id === 'RUS' || country.id === 'FJI') {
+							country.geometry.coordinates.forEach(function (poly, key) {
+								poly[0].forEach(function (coord, c) {
+									if (coord[0] < -90) {
+										country.geometry.coordinates[key][0][c][0] += 360;
+									}
+								});
+							});
+						}
+						if (country.properties.advice) {
+							geojson.addData(country).bringToBack();
+						}
 					});
 				}
 			});
@@ -194,13 +190,14 @@
 			var directionsService = new google.maps.DirectionsService();
 			directionsService.route({
 				origin: 'Amsterdam, The Netherlands',
-				// waypoints: [
-				// 	{ location: ''}
-				// ],
-				destination: 'Kaapstad',
+				waypoints: [
+					{ location: 'Arlit'}
+				],
+				destination: 'Juba',
 				travelMode: google.maps.DirectionsTravelMode.DRIVING
 			}, function(response, status) {
 				if (status !== google.maps.DirectionsStatus.OK) {
+					console.log(status);
 					return;
 				}
 				var encoded = response.routes[0].overview_polyline.points;
@@ -210,7 +207,7 @@
 					weigth: 2
 				}).addTo(map);
 			});
-			
+
 		}
 
 

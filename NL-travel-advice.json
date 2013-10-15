@@ -1,4 +1,32 @@
 {
+  "ASM": {
+    "name_nl": "Amerikaans-Samoa",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/amerikaans-samoa",
+    "id": "ASM",
+    "name": "American Samoa",
+    "advice": "Geen bijzondere veiligheidsrisico's"
+  },
+  "AND": {
+    "name_nl": "Andorra",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/andorra",
+    "id": "AND",
+    "name": "Andorra",
+    "advice": "Geen bijzondere veiligheidsrisico's"
+  },
+  "AGO": {
+    "name_nl": "Angola",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/angola",
+    "id": "AGO",
+    "name": "Angola",
+    "advice": "Waakzaamheid betrachten"
+  },
+  "ALB": {
+    "name_nl": "Albanië",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/albanie",
+    "id": "ALB",
+    "name": "Albania",
+    "advice": "Geen bijzondere veiligheidsrisico's"
+  },
   "VIR": {
     "name_nl": "Amerikaanse Maagdeneilanden",
     "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/amerikaanse-maagdeneilanden",
@@ -13,33 +41,12 @@
     "name": "Algeria",
     "advice": "Alle reizen naar bepaalde gebieden worden ontraden"
   },
-  "ASM": {
-    "name_nl": "Amerikaans-Samoa",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/amerikaans-samoa",
-    "id": "ASM",
-    "name": "American Samoa",
-    "advice": "Geen bijzondere veiligheidsrisico's"
-  },
   "AFG": {
     "name_nl": "Afghanistan",
     "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/afghanistan",
     "id": "AFG",
     "name": "Afghanistan",
     "advice": "Niet-essentiële reizen worden ontraden"
-  },
-  "AIA": {
-    "name_nl": "Anguilla",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/anguilla",
-    "id": "AIA",
-    "name": "Anguilla",
-    "advice": "Geen bijzondere veiligheidsrisico's"
-  },
-  "ATG": {
-    "name_nl": "Antigua en Barbuda",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/antigua-en-barbuda",
-    "id": "ATG",
-    "name": "Antigua and Barbuda",
-    "advice": "Geen bijzondere veiligheidsrisico's"
   },
   "ARG": {
     "name_nl": "Argentinië",
@@ -48,12 +55,19 @@
     "name": "Argentina",
     "advice": "Waakzaamheid betrachten"
   },
-  "ARM": {
-    "name_nl": "Armenië",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/armenie",
-    "id": "ARM",
-    "name": "Armenia",
-    "advice": "Niet-essentiële reizen naar bepaalde gebieden worden ontraden"
+  "AUS": {
+    "name_nl": "Australië",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/australie",
+    "id": "AUS",
+    "name": "Australia",
+    "advice": "Geen bijzondere veiligheidsrisico's"
+  },
+  "AIA": {
+    "name_nl": "Anguilla",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/anguilla",
+    "id": "AIA",
+    "name": "Anguilla",
+    "advice": "Geen bijzondere veiligheidsrisico's"
   },
   "AZE": {
     "name_nl": "Azerbeidzjan",
@@ -61,13 +75,6 @@
     "id": "AZE",
     "name": "Azerbaijan",
     "advice": "Alle reizen naar bepaalde gebieden worden ontraden"
-  },
-  "AGO": {
-    "name_nl": "Angola",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/angola",
-    "id": "AGO",
-    "name": "Angola",
-    "advice": "Waakzaamheid betrachten"
   },
   "BHS": {
     "name_nl": "Bahama's",
@@ -83,25 +90,25 @@
     "name": "Bahrain",
     "advice": "Waakzaamheid betrachten"
   },
-  "AND": {
-    "name_nl": "Andorra",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/andorra",
-    "id": "AND",
-    "name": "Andorra",
-    "advice": "Geen bijzondere veiligheidsrisico's"
-  },
-  "ALB": {
-    "name_nl": "Albanië",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/albanie",
-    "id": "ALB",
-    "name": "Albania",
-    "advice": "Geen bijzondere veiligheidsrisico's"
-  },
   "BGD": {
     "name_nl": "Bangladesh",
     "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/bangladesh",
     "id": "BGD",
     "name": "Bangladesh",
+    "advice": "Niet-essentiële reizen naar bepaalde gebieden worden ontraden"
+  },
+  "BEL": {
+    "name_nl": "België",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/belgie",
+    "id": "BEL",
+    "name": "Belgium",
+    "advice": "Geen bijzondere veiligheidsrisico's"
+  },
+  "ARM": {
+    "name_nl": "Armenië",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/armenie",
+    "id": "ARM",
+    "name": "Armenia",
     "advice": "Niet-essentiële reizen naar bepaalde gebieden worden ontraden"
   },
   "BLR": {
@@ -111,19 +118,19 @@
     "name": "Belarus",
     "advice": "Geen bijzondere veiligheidsrisico's"
   },
-  "BEL": {
-    "name_nl": "België",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/belgie",
-    "id": "BEL",
-    "name": "Belgium",
-    "advice": "Geen bijzondere veiligheidsrisico's"
-  },
   "BLZ": {
     "name_nl": "Belize",
     "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/belize",
     "id": "BLZ",
     "name": "Belize",
     "advice": "Waakzaamheid betrachten"
+  },
+  "BRB": {
+    "name_nl": "Barbados",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/barbados",
+    "id": "BRB",
+    "name": "Barbados",
+    "advice": "Geen bijzondere veiligheidsrisico's"
   },
   "BTN": {
     "name_nl": "Bhutan",
@@ -139,13 +146,6 @@
     "name": "Myanmar",
     "advice": "Alle reizen naar bepaalde gebieden worden ontraden"
   },
-  "AUS": {
-    "name_nl": "Australië",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/australie",
-    "id": "AUS",
-    "name": "Australia",
-    "advice": "Geen bijzondere veiligheidsrisico's"
-  },
   "BOL": {
     "name_nl": "Bolivia",
     "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/bolivia",
@@ -153,26 +153,12 @@
     "name": "Bolivia",
     "advice": "Waakzaamheid betrachten"
   },
-  "BIH": {
-    "name_nl": "Bosnië en Herzegovina",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/bosnie-en-herzegovina",
-    "id": "BIH",
-    "name": "Bosnia and Herzegovina",
-    "advice": "Waakzaamheid betrachten"
-  },
-  "BWA": {
-    "name_nl": "Botswana",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/botswana",
-    "id": "BWA",
-    "name": "Botswana",
-    "advice": "Waakzaamheid betrachten"
-  },
-  "BRA": {
-    "name_nl": "Brazilië",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/brazilie",
-    "id": "BRA",
-    "name": "Brazil",
-    "advice": "Extra waakzaamheid betrachten"
+  "ATG": {
+    "name_nl": "Antigua en Barbuda",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/antigua-en-barbuda",
+    "id": "ATG",
+    "name": "Antigua and Barbuda",
+    "advice": "Geen bijzondere veiligheidsrisico's"
   },
   "VGB": {
     "name_nl": "Britse Maagdeneilanden",
@@ -188,11 +174,11 @@
     "name": "Brunei",
     "advice": "Geen bijzondere veiligheidsrisico's"
   },
-  "BGR": {
-    "name_nl": "Bulgarije",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/bulgarije",
-    "id": "BGR",
-    "name": "Bulgaria",
+  "BEN": {
+    "name_nl": "Benin",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/benin",
+    "id": "BEN",
+    "name": "Benin",
     "advice": "Waakzaamheid betrachten"
   },
   "BFA": {
@@ -202,18 +188,11 @@
     "name": "Burkina Faso",
     "advice": "Alle reizen naar bepaalde gebieden worden ontraden"
   },
-  "BRB": {
-    "name_nl": "Barbados",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/barbados",
-    "id": "BRB",
-    "name": "Barbados",
-    "advice": "Geen bijzondere veiligheidsrisico's"
-  },
-  "BEN": {
-    "name_nl": "Benin",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/benin",
-    "id": "BEN",
-    "name": "Benin",
+  "BWA": {
+    "name_nl": "Botswana",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/botswana",
+    "id": "BWA",
+    "name": "Botswana",
     "advice": "Waakzaamheid betrachten"
   },
   "BDI": {
@@ -223,12 +202,12 @@
     "name": "Burundi",
     "advice": "Extra waakzaamheid betrachten"
   },
-  "CAN": {
-    "name_nl": "Canada",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/canada",
-    "id": "CAN",
-    "name": "Canada",
-    "advice": "Geen bijzondere veiligheidsrisico's"
+  "KHM": {
+    "name_nl": "Cambodja",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/cambodja",
+    "id": "KHM",
+    "name": "Cambodia",
+    "advice": "Niet-essentiële reizen naar bepaalde gebieden worden ontraden"
   },
   "CAF": {
     "name_nl": "Centraal-Afrikaanse Republiek",
@@ -244,18 +223,46 @@
     "name": "Chile",
     "advice": "Waakzaamheid betrachten"
   },
-  "KHM": {
-    "name_nl": "Cambodja",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/cambodja",
-    "id": "KHM",
-    "name": "Cambodia",
-    "advice": "Niet-essentiële reizen naar bepaalde gebieden worden ontraden"
-  },
   "CHN": {
     "name_nl": "China",
     "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/china",
     "id": "CHN",
     "name": "China",
+    "advice": "Waakzaamheid betrachten"
+  },
+  "COL": {
+    "name_nl": "Colombia",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/colombia",
+    "id": "COL",
+    "name": "Colombia",
+    "advice": "Alle reizen naar bepaalde gebieden worden ontraden"
+  },
+  "BRA": {
+    "name_nl": "Brazilië",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/brazilie",
+    "id": "BRA",
+    "name": "Brazil",
+    "advice": "Extra waakzaamheid betrachten"
+  },
+  "BIH": {
+    "name_nl": "Bosnië en Herzegovina",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/bosnie-en-herzegovina",
+    "id": "BIH",
+    "name": "Bosnia and Herzegovina",
+    "advice": "Waakzaamheid betrachten"
+  },
+  "COG": {
+    "name_nl": "Congo, de Republiek",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/congo-de-republiek",
+    "id": "COG",
+    "name": "Congo Republic",
+    "advice": "Waakzaamheid betrachten"
+  },
+  "BGR": {
+    "name_nl": "Bulgarije",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/bulgarije",
+    "id": "BGR",
+    "name": "Bulgaria",
     "advice": "Waakzaamheid betrachten"
   },
   "COM": {
@@ -264,13 +271,6 @@
     "id": "COM",
     "name": "Comoros",
     "advice": "Waakzaamheid betrachten"
-  },
-  "COK": {
-    "name_nl": "Cookeilanden",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/cookeilanden",
-    "id": "COK",
-    "name": "Cook Islands",
-    "advice": "Geen bijzondere veiligheidsrisico's"
   },
   "CRI": {
     "name_nl": "Costa Rica",
@@ -286,25 +286,18 @@
     "name": "Cuba",
     "advice": "Waakzaamheid betrachten"
   },
-  "CYP": {
-    "name_nl": "Cyprus",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/cyprus",
-    "id": "CYP",
-    "name": "Cyprus",
-    "advice": "Geen bijzondere veiligheidsrisico's"
-  },
-  "COD": {
-    "name_nl": "Congo, Democratische Republiek",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/congo-democratische-republiek",
-    "id": "COD",
-    "name": "Congo Democratic Republic",
-    "advice": "Alle reizen naar bepaalde gebieden worden ontraden"
-  },
   "DNK": {
     "name_nl": "Denemarken",
     "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/denemarken",
     "id": "DNK",
     "name": "Denmark",
+    "advice": "Geen bijzondere veiligheidsrisico's"
+  },
+  "CAN": {
+    "name_nl": "Canada",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/canada",
+    "id": "CAN",
+    "name": "Canada",
     "advice": "Geen bijzondere veiligheidsrisico's"
   },
   "DMA": {
@@ -328,13 +321,6 @@
     "name": "Germany",
     "advice": "Waakzaamheid betrachten"
   },
-  "EGY": {
-    "name_nl": "Egypte",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/egypte",
-    "id": "EGY",
-    "name": "Egypt",
-    "advice": "Alle reizen naar bepaalde gebieden worden ontraden"
-  },
   "ECU": {
     "name_nl": "Ecuador",
     "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/ecuador",
@@ -342,18 +328,11 @@
     "name": "Ecuador",
     "advice": "Niet-essentiële reizen naar bepaalde gebieden worden ontraden"
   },
-  "COL": {
-    "name_nl": "Colombia",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/colombia",
-    "id": "COL",
-    "name": "Colombia",
-    "advice": "Alle reizen naar bepaalde gebieden worden ontraden"
-  },
-  "DJI": {
-    "name_nl": "Djibouti",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/djibouti",
-    "id": "DJI",
-    "name": "Djibouti",
+  "EGY": {
+    "name_nl": "Egypte",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/egypte",
+    "id": "EGY",
+    "name": "Egypt",
     "advice": "Alle reizen naar bepaalde gebieden worden ontraden"
   },
   "SLV": {
@@ -363,6 +342,13 @@
     "name": "El Salvador",
     "advice": "Extra waakzaamheid betrachten"
   },
+  "COK": {
+    "name_nl": "Cookeilanden",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/cookeilanden",
+    "id": "COK",
+    "name": "Cook Islands",
+    "advice": "Geen bijzondere veiligheidsrisico's"
+  },
   "GNQ": {
     "name_nl": "Equatoriaal-Guinea",
     "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/equatoriaal-guinea",
@@ -370,19 +356,12 @@
     "name": "Equatorial Guinea",
     "advice": "Waakzaamheid betrachten"
   },
-  "ERI": {
-    "name_nl": "Eritrea",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/eritrea",
-    "id": "ERI",
-    "name": "Eritrea",
-    "advice": "Niet-essentiële reizen worden ontraden"
-  },
-  "EST": {
-    "name_nl": "Estland",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/estland",
-    "id": "EST",
-    "name": "Estonia",
-    "advice": "Geen bijzondere veiligheidsrisico's"
+  "COD": {
+    "name_nl": "Congo, Democratische Republiek",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/congo-democratische-republiek",
+    "id": "COD",
+    "name": "Congo Democratic Republic",
+    "advice": "Alle reizen naar bepaalde gebieden worden ontraden"
   },
   "ETH": {
     "name_nl": "Ethiopië",
@@ -391,19 +370,19 @@
     "name": "Ethiopia",
     "advice": "Alle reizen naar bepaalde gebieden worden ontraden"
   },
+  "ERI": {
+    "name_nl": "Eritrea",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/eritrea",
+    "id": "ERI",
+    "name": "Eritrea",
+    "advice": "Niet-essentiële reizen worden ontraden"
+  },
   "FJI": {
     "name_nl": "Fiji",
     "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/fiji",
     "id": "FJI",
     "name": "Fiji",
     "advice": "Waakzaamheid betrachten"
-  },
-  "FIN": {
-    "name_nl": "Finland",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/finland",
-    "id": "FIN",
-    "name": "Finland",
-    "advice": "Geen bijzondere veiligheidsrisico's"
   },
   "PHL": {
     "name_nl": "Filipijnen",
@@ -412,6 +391,27 @@
     "name": "Philippines",
     "advice": "Alle reizen naar bepaalde gebieden worden ontraden"
   },
+  "FIN": {
+    "name_nl": "Finland",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/finland",
+    "id": "FIN",
+    "name": "Finland",
+    "advice": "Geen bijzondere veiligheidsrisico's"
+  },
+  "DJI": {
+    "name_nl": "Djibouti",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/djibouti",
+    "id": "DJI",
+    "name": "Djibouti",
+    "advice": "Alle reizen naar bepaalde gebieden worden ontraden"
+  },
+  "PYF": {
+    "name_nl": "Frans-Polynesië",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/frans-polynesie",
+    "id": "PYF",
+    "name": "French Polynesia",
+    "advice": "Geen bijzondere veiligheidsrisico's"
+  },
   "FRA": {
     "name_nl": "Frankrijk",
     "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/frankrijk",
@@ -419,11 +419,11 @@
     "name": "France",
     "advice": "Waakzaamheid betrachten"
   },
-  "PYF": {
-    "name_nl": "Frans-Polynesië",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/frans-polynesie",
-    "id": "PYF",
-    "name": "French Polynesia",
+  "CYP": {
+    "name_nl": "Cyprus",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/cyprus",
+    "id": "CYP",
+    "name": "Cyprus",
     "advice": "Geen bijzondere veiligheidsrisico's"
   },
   "GAB": {
@@ -440,26 +440,12 @@
     "name": "Gambia",
     "advice": "Waakzaamheid betrachten"
   },
-  "GEO": {
-    "name_nl": "Georgië",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/georgie",
-    "id": "GEO",
-    "name": "Georgia",
-    "advice": "Alle reizen naar bepaalde gebieden worden ontraden"
-  },
   "GHA": {
     "name_nl": "Ghana",
     "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/ghana",
     "id": "GHA",
     "name": "Ghana",
     "advice": "Extra waakzaamheid betrachten"
-  },
-  "GRC": {
-    "name_nl": "Griekenland",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/griekenland",
-    "id": "GRC",
-    "name": "Greece",
-    "advice": "Waakzaamheid betrachten"
   },
   "GRD": {
     "name_nl": "Grenada",
@@ -468,12 +454,12 @@
     "name": "Grenada",
     "advice": "Geen bijzondere veiligheidsrisico's"
   },
-  "GTM": {
-    "name_nl": "Guatemala",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/guatemala",
-    "id": "GTM",
-    "name": "Guatemala",
-    "advice": "Extra waakzaamheid betrachten"
+  "GEO": {
+    "name_nl": "Georgië",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/georgie",
+    "id": "GEO",
+    "name": "Georgia",
+    "advice": "Alle reizen naar bepaalde gebieden worden ontraden"
   },
   "GIN": {
     "name_nl": "Guinee",
@@ -482,12 +468,19 @@
     "name": "Guinea",
     "advice": "Alle reizen naar bepaalde gebieden worden ontraden"
   },
-  "GNB": {
-    "name_nl": "Guinee-Bissau",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/guinee-bissau",
-    "id": "GNB",
-    "name": "Guinea-Bissau",
-    "advice": "Niet-essentiële reizen worden ontraden"
+  "GRC": {
+    "name_nl": "Griekenland",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/griekenland",
+    "id": "GRC",
+    "name": "Greece",
+    "advice": "Waakzaamheid betrachten"
+  },
+  "GTM": {
+    "name_nl": "Guatemala",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/guatemala",
+    "id": "GTM",
+    "name": "Guatemala",
+    "advice": "Extra waakzaamheid betrachten"
   },
   "GUY": {
     "name_nl": "Guyana",
@@ -495,6 +488,34 @@
     "id": "GUY",
     "name": "Guyana",
     "advice": "Waakzaamheid betrachten"
+  },
+  "GNB": {
+    "name_nl": "Guinee-Bissau",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/guinee-bissau",
+    "id": "GNB",
+    "name": "Guinea-Bissau",
+    "advice": "Niet-essentiële reizen worden ontraden"
+  },
+  "EST": {
+    "name_nl": "Estland",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/estland",
+    "id": "EST",
+    "name": "Estonia",
+    "advice": "Geen bijzondere veiligheidsrisico's"
+  },
+  "HUN": {
+    "name_nl": "Hongarije",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/hongarije",
+    "id": "HUN",
+    "name": "Hungary",
+    "advice": "Geen bijzondere veiligheidsrisico's"
+  },
+  "IRL": {
+    "name_nl": "Ierland",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/ierland",
+    "id": "IRL",
+    "name": "Ireland",
+    "advice": "Geen bijzondere veiligheidsrisico's"
   },
   "HTI": {
     "name_nl": "Haïti",
@@ -510,20 +531,6 @@
     "name": "Honduras",
     "advice": "Extra waakzaamheid betrachten"
   },
-  "HKG": {
-    "name_nl": "Hongkong SAR",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/hongkong-sar",
-    "id": "HKG",
-    "name": "Hong Kong",
-    "advice": "Geen bijzondere veiligheidsrisico's"
-  },
-  "HUN": {
-    "name_nl": "Hongarije",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/hongarije",
-    "id": "HUN",
-    "name": "Hungary",
-    "advice": "Geen bijzondere veiligheidsrisico's"
-  },
   "IDN": {
     "name_nl": "Indonesië",
     "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/indonesie",
@@ -531,18 +538,11 @@
     "name": "Indonesia",
     "advice": "Alle reizen naar bepaalde gebieden worden ontraden"
   },
-  "IRL": {
-    "name_nl": "Ierland",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/ierland",
-    "id": "IRL",
-    "name": "Ireland",
-    "advice": "Geen bijzondere veiligheidsrisico's"
-  },
-  "ISL": {
-    "name_nl": "IJsland",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/ijsland",
-    "id": "ISL",
-    "name": "Iceland",
+  "HKG": {
+    "name_nl": "Hongkong SAR",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/hongkong-sar",
+    "id": "HKG",
+    "name": "Hong Kong",
     "advice": "Geen bijzondere veiligheidsrisico's"
   },
   "IND": {
@@ -552,12 +552,12 @@
     "name": "India",
     "advice": "Alle reizen naar bepaalde gebieden worden ontraden"
   },
-  "IRQ": {
-    "name_nl": "Irak",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/irak",
-    "id": "IRQ",
-    "name": "Iraq",
-    "advice": "Alle reizen naar bepaalde gebieden worden ontraden"
+  "ISL": {
+    "name_nl": "IJsland",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/ijsland",
+    "id": "ISL",
+    "name": "Iceland",
+    "advice": "Geen bijzondere veiligheidsrisico's"
   },
   "ISR": {
     "name_nl": "Israël",
@@ -565,6 +565,27 @@
     "id": "ISR",
     "name": "Israel",
     "advice": "Extra waakzaamheid betrachten"
+  },
+  "IRQ": {
+    "name_nl": "Irak",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/irak",
+    "id": "IRQ",
+    "name": "Iraq",
+    "advice": "Alle reizen naar bepaalde gebieden worden ontraden"
+  },
+  "CIV": {
+    "name_nl": "Ivoorkust",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/ivoorkust",
+    "id": "CIV",
+    "name": "Ivory Coast",
+    "advice": "Alle reizen naar bepaalde gebieden worden ontraden"
+  },
+  "JAM": {
+    "name_nl": "Jamaica",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/jamaica",
+    "id": "JAM",
+    "name": "Jamaica",
+    "advice": "Waakzaamheid betrachten"
   },
   "IRN": {
     "name_nl": "Iran",
@@ -580,41 +601,6 @@
     "name": "Italy",
     "advice": "Geen bijzondere veiligheidsrisico's"
   },
-  "CIV": {
-    "name_nl": "Ivoorkust",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/ivoorkust",
-    "id": "CIV",
-    "name": "Ivory Coast",
-    "advice": "Alle reizen naar bepaalde gebieden worden ontraden"
-  },
-  "JPN": {
-    "name_nl": "Japan",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/japan",
-    "id": "JPN",
-    "name": "Japan",
-    "advice": "Alle reizen naar bepaalde gebieden worden ontraden"
-  },
-  "JAM": {
-    "name_nl": "Jamaica",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/jamaica",
-    "id": "JAM",
-    "name": "Jamaica",
-    "advice": "Waakzaamheid betrachten"
-  },
-  "YEM": {
-    "name_nl": "Jemen",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/jemen",
-    "id": "YEM",
-    "name": "Yemen",
-    "advice": "Alle reizen worden ontraden"
-  },
-  "CPV": {
-    "name_nl": "Kaapverdië",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/kaapverdie",
-    "id": "CPV",
-    "name": "Cape Verde",
-    "advice": "Waakzaamheid betrachten"
-  },
   "JOR": {
     "name_nl": "Jordanië",
     "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/jordanie",
@@ -622,12 +608,12 @@
     "name": "Jordan",
     "advice": "Niet-essentiële reizen naar bepaalde gebieden worden ontraden"
   },
-  "CMR": {
-    "name_nl": "Kameroen",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/kameroen",
-    "id": "CMR",
-    "name": "Cameroon",
-    "advice": "Alle reizen naar bepaalde gebieden worden ontraden"
+  "USA": {
+    "name_nl": "Verenigde Staten van Amerika",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/verenigde-staten-van-amerika",
+    "id": "USA",
+    "name": "United States",
+    "advice": "Waakzaamheid betrachten"
   },
   "CYM": {
     "name_nl": "Kaaimaneilanden",
@@ -636,6 +622,13 @@
     "name": "Cayman Islands",
     "advice": "Geen bijzondere veiligheidsrisico's"
   },
+  "YEM": {
+    "name_nl": "Jemen",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/jemen",
+    "id": "YEM",
+    "name": "Yemen",
+    "advice": "Alle reizen worden ontraden"
+  },
   "KAZ": {
     "name_nl": "Kazachstan",
     "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/kazachstan",
@@ -643,12 +636,19 @@
     "name": "Kazakhstan",
     "advice": "Niet-essentiële reizen naar bepaalde gebieden worden ontraden"
   },
-  "KEN": {
-    "name_nl": "Kenia",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/kenia",
-    "id": "KEN",
-    "name": "Kenya",
+  "KGZ": {
+    "name_nl": "Kirgizië",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/kirgizie",
+    "id": "KGZ",
+    "name": "Kyrgyzstan",
     "advice": "Niet-essentiële reizen naar bepaalde gebieden worden ontraden"
+  },
+  "CPV": {
+    "name_nl": "Kaapverdië",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/kaapverdie",
+    "id": "CPV",
+    "name": "Cape Verde",
+    "advice": "Waakzaamheid betrachten"
   },
   "KIR": {
     "name_nl": "Kiribati",
@@ -657,6 +657,20 @@
     "name": "Kiribati",
     "advice": "Geen bijzondere veiligheidsrisico's"
   },
+  "CMR": {
+    "name_nl": "Kameroen",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/kameroen",
+    "id": "CMR",
+    "name": "Cameroon",
+    "advice": "Alle reizen naar bepaalde gebieden worden ontraden"
+  },
+  "KEN": {
+    "name_nl": "Kenia",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/kenia",
+    "id": "KEN",
+    "name": "Kenya",
+    "advice": "Niet-essentiële reizen naar bepaalde gebieden worden ontraden"
+  },
   "KWT": {
     "name_nl": "Koeweit",
     "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/koeweit",
@@ -664,12 +678,12 @@
     "name": "Kuwait",
     "advice": "Waakzaamheid betrachten"
   },
-  "KGZ": {
-    "name_nl": "Kirgizië",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/kirgizie",
-    "id": "KGZ",
-    "name": "Kyrgyzstan",
-    "advice": "Niet-essentiële reizen naar bepaalde gebieden worden ontraden"
+  "RKS": {
+    "name_nl": "Kosovo",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/kosovo",
+    "id": "RKS",
+    "name": "Kosovo",
+    "advice": "Waakzaamheid betrachten"
   },
   "HRV": {
     "name_nl": "Kroatië",
@@ -699,19 +713,19 @@
     "name": "Latvia",
     "advice": "Geen bijzondere veiligheidsrisico's"
   },
+  "LBN": {
+    "name_nl": "Libanon",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/libanon",
+    "id": "LBN",
+    "name": "Lebanon",
+    "advice": "Alle reizen naar bepaalde gebieden worden ontraden"
+  },
   "LBR": {
     "name_nl": "Liberia",
     "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/liberia",
     "id": "LBR",
     "name": "Liberia",
     "advice": "Niet-essentiële reizen worden ontraden"
-  },
-  "LBY": {
-    "name_nl": "Libië",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/libie",
-    "id": "LBY",
-    "name": "Libya",
-    "advice": "Alle reizen naar bepaalde gebieden worden ontraden"
   },
   "LIE": {
     "name_nl": "Liechtenstein",
@@ -727,33 +741,19 @@
     "name": "Lithuania",
     "advice": "Geen bijzondere veiligheidsrisico's"
   },
+  "LBY": {
+    "name_nl": "Libië",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/libie",
+    "id": "LBY",
+    "name": "Libya",
+    "advice": "Alle reizen naar bepaalde gebieden worden ontraden"
+  },
   "LUX": {
     "name_nl": "Luxemburg",
     "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/luxemburg",
     "id": "LUX",
     "name": "Luxembourg",
     "advice": "Geen bijzondere veiligheidsrisico's"
-  },
-  "MAC": {
-    "name_nl": "Macau",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/macau",
-    "id": "MAC",
-    "name": "Macao",
-    "advice": "Geen bijzondere veiligheidsrisico's"
-  },
-  "MKD": {
-    "name_nl": "Macedonië",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/macedonie",
-    "id": "MKD",
-    "name": "Macedonia",
-    "advice": "Waakzaamheid betrachten"
-  },
-  "MDG": {
-    "name_nl": "Madagaskar",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/madagaskar",
-    "id": "MDG",
-    "name": "Madagascar",
-    "advice": "Extra waakzaamheid betrachten"
   },
   "MWI": {
     "name_nl": "Malawi",
@@ -769,11 +769,25 @@
     "name": "Maldives",
     "advice": "Niet-essentiële reizen naar bepaalde gebieden worden ontraden"
   },
-  "LBN": {
-    "name_nl": "Libanon",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/libanon",
-    "id": "LBN",
-    "name": "Lebanon",
+  "MAC": {
+    "name_nl": "Macau",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/macau",
+    "id": "MAC",
+    "name": "Macao",
+    "advice": "Geen bijzondere veiligheidsrisico's"
+  },
+  "MKD": {
+    "name_nl": "Macedonië",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/macedonie",
+    "id": "MKD",
+    "name": "Macedonia",
+    "advice": "Waakzaamheid betrachten"
+  },
+  "JPN": {
+    "name_nl": "Japan",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/japan",
+    "id": "JPN",
+    "name": "Japan",
     "advice": "Alle reizen naar bepaalde gebieden worden ontraden"
   },
   "MYS": {
@@ -790,6 +804,13 @@
     "name": "Mali",
     "advice": "Alle reizen worden ontraden"
   },
+  "MLT": {
+    "name_nl": "Malta",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/malta",
+    "id": "MLT",
+    "name": "Malta",
+    "advice": "Geen bijzondere veiligheidsrisico's"
+  },
   "MAR": {
     "name_nl": "Marokko",
     "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/marokko",
@@ -797,11 +818,11 @@
     "name": "Morocco",
     "advice": "Extra waakzaamheid betrachten"
   },
-  "MLT": {
-    "name_nl": "Malta",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/malta",
-    "id": "MLT",
-    "name": "Malta",
+  "MHL": {
+    "name_nl": "Marshalleilanden",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/marshalleilanden",
+    "id": "MHL",
+    "name": "Marshall Islands",
     "advice": "Geen bijzondere veiligheidsrisico's"
   },
   "MRT": {
@@ -811,26 +832,12 @@
     "name": "Mauritania",
     "advice": "Niet-essentiële reizen worden ontraden"
   },
-  "MHL": {
-    "name_nl": "Marshalleilanden",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/marshalleilanden",
-    "id": "MHL",
-    "name": "Marshall Islands",
-    "advice": "Geen bijzondere veiligheidsrisico's"
-  },
   "MUS": {
     "name_nl": "Mauritius",
     "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/mauritius",
     "id": "MUS",
     "name": "Mauritius",
     "advice": "Waakzaamheid betrachten"
-  },
-  "FSM": {
-    "name_nl": "Micronesia",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/micronesia",
-    "id": "FSM",
-    "name": "Micronesia",
-    "advice": "Geen bijzondere veiligheidsrisico's"
   },
   "MDA": {
     "name_nl": "Moldavië",
@@ -839,19 +846,19 @@
     "name": "Moldova",
     "advice": "Extra waakzaamheid betrachten"
   },
-  "MCO": {
-    "name_nl": "Monaco",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/monaco",
-    "id": "MCO",
-    "name": "Monaco",
-    "advice": "Geen bijzondere veiligheidsrisico's"
-  },
   "MEX": {
     "name_nl": "Mexico",
     "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/mexico",
     "id": "MEX",
     "name": "Mexico",
     "advice": "Niet-essentiële reizen naar bepaalde gebieden worden ontraden"
+  },
+  "FSM": {
+    "name_nl": "Micronesia",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/micronesia",
+    "id": "FSM",
+    "name": "Micronesia",
+    "advice": "Geen bijzondere veiligheidsrisico's"
   },
   "MNG": {
     "name_nl": "Mongolië",
@@ -874,12 +881,12 @@
     "name": "Mozambique",
     "advice": "Extra waakzaamheid betrachten"
   },
-  "MSR": {
-    "name_nl": "Montserrat",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/montserrat",
-    "id": "MSR",
-    "name": "Montserrat",
-    "advice": "Niet-essentiële reizen naar bepaalde gebieden worden ontraden"
+  "NRU": {
+    "name_nl": "Nauru",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/nauru",
+    "id": "NRU",
+    "name": "Nauru",
+    "advice": "Waakzaamheid betrachten"
   },
   "NAM": {
     "name_nl": "Namibië",
@@ -893,13 +900,6 @@
     "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/nicaragua",
     "id": "NIC",
     "name": "Nicaragua",
-    "advice": "Waakzaamheid betrachten"
-  },
-  "NRU": {
-    "name_nl": "Nauru",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/nauru",
-    "id": "NRU",
-    "name": "Nauru",
     "advice": "Waakzaamheid betrachten"
   },
   "NPL": {
@@ -916,13 +916,6 @@
     "name": "New Zealand",
     "advice": "Waakzaamheid betrachten"
   },
-  "NCL": {
-    "name_nl": "Nieuw-Caledonië",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/nieuw-caledonie",
-    "id": "NCL",
-    "name": "New Caledonia",
-    "advice": "Geen bijzondere veiligheidsrisico's"
-  },
   "NER": {
     "name_nl": "Niger",
     "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/niger",
@@ -936,6 +929,13 @@
     "id": "NGA",
     "name": "Nigeria",
     "advice": "Alle reizen naar bepaalde gebieden worden ontraden"
+  },
+  "MCO": {
+    "name_nl": "Monaco",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/monaco",
+    "id": "MCO",
+    "name": "Monaco",
+    "advice": "Geen bijzondere veiligheidsrisico's"
   },
   "NIU": {
     "name_nl": "Niue",
@@ -951,12 +951,12 @@
     "name": "Korea North",
     "advice": "Niet-essentiële reizen worden ontraden"
   },
-  "NOR": {
-    "name_nl": "Noorwegen",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/noorwegen",
-    "id": "NOR",
-    "name": "Norway",
-    "advice": "Geen bijzondere veiligheidsrisico's"
+  "MDG": {
+    "name_nl": "Madagaskar",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/madagaskar",
+    "id": "MDG",
+    "name": "Madagascar",
+    "advice": "Extra waakzaamheid betrachten"
   },
   "UKR": {
     "name_nl": "Oekraïne",
@@ -965,13 +965,6 @@
     "name": "Ukraine",
     "advice": "Geen bijzondere veiligheidsrisico's"
   },
-  "OMN": {
-    "name_nl": "Oman",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/oman",
-    "id": "OMN",
-    "name": "Oman",
-    "advice": "Waakzaamheid betrachten"
-  },
   "UZB": {
     "name_nl": "Oezbekistan",
     "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/oezbekistan",
@@ -979,19 +972,12 @@
     "name": "Uzbekistan",
     "advice": "Waakzaamheid betrachten"
   },
-  "PAK": {
-    "name_nl": "Pakistan",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/pakistan",
-    "id": "PAK",
-    "name": "Pakistan",
-    "advice": "Niet-essentiële reizen worden ontraden"
-  },
-  "AUT": {
-    "name_nl": "Oostenrijk",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/oostenrijk",
-    "id": "AUT",
-    "name": "Austria",
-    "advice": "Geen bijzondere veiligheidsrisico's"
+  "OMN": {
+    "name_nl": "Oman",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/oman",
+    "id": "OMN",
+    "name": "Oman",
+    "advice": "Waakzaamheid betrachten"
   },
   "TLS": {
     "name_nl": "Oost-Timor",
@@ -1000,18 +986,18 @@
     "name": "Timor-Leste",
     "advice": "Extra waakzaamheid betrachten"
   },
-  "PLW": {
-    "name_nl": "Palau",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/palau",
-    "id": "PLW",
-    "name": "Palau",
-    "advice": "Geen bijzondere veiligheidsrisico's"
+  "PAK": {
+    "name_nl": "Pakistan",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/pakistan",
+    "id": "PAK",
+    "name": "Pakistan",
+    "advice": "Niet-essentiële reizen worden ontraden"
   },
-  "PAN": {
-    "name_nl": "Panama",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/panama",
-    "id": "PAN",
-    "name": "Panama",
+  "MSR": {
+    "name_nl": "Montserrat",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/montserrat",
+    "id": "MSR",
+    "name": "Montserrat",
     "advice": "Niet-essentiële reizen naar bepaalde gebieden worden ontraden"
   },
   "PSE": {
@@ -1021,12 +1007,12 @@
     "name": "Palestinian Territory",
     "advice": "Alle reizen naar bepaalde gebieden worden ontraden"
   },
-  "PRY": {
-    "name_nl": "Paraguay",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/paraguay",
-    "id": "PRY",
-    "name": "Paraguay",
-    "advice": "Waakzaamheid betrachten"
+  "PLW": {
+    "name_nl": "Palau",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/palau",
+    "id": "PLW",
+    "name": "Palau",
+    "advice": "Geen bijzondere veiligheidsrisico's"
   },
   "PNG": {
     "name_nl": "Papoea-Nieuw-Guinea",
@@ -1035,26 +1021,26 @@
     "name": "Papua New Guinea",
     "advice": "Alle reizen naar bepaalde gebieden worden ontraden"
   },
+  "NCL": {
+    "name_nl": "Nieuw-Caledonië",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/nieuw-caledonie",
+    "id": "NCL",
+    "name": "New Caledonia",
+    "advice": "Geen bijzondere veiligheidsrisico's"
+  },
+  "AUT": {
+    "name_nl": "Oostenrijk",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/oostenrijk",
+    "id": "AUT",
+    "name": "Austria",
+    "advice": "Geen bijzondere veiligheidsrisico's"
+  },
   "PER": {
     "name_nl": "Peru",
     "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/peru",
     "id": "PER",
     "name": "Peru",
     "advice": "Niet-essentiële reizen naar bepaalde gebieden worden ontraden"
-  },
-  "PRT": {
-    "name_nl": "Portugal",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/portugal",
-    "id": "PRT",
-    "name": "Portugal",
-    "advice": "Waakzaamheid betrachten"
-  },
-  "POL": {
-    "name_nl": "Polen",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/polen",
-    "id": "POL",
-    "name": "Poland",
-    "advice": "Geen bijzondere veiligheidsrisico's"
   },
   "PCN": {
     "name_nl": "Pitcairneilanden",
@@ -1063,18 +1049,18 @@
     "name": "Pitcairn",
     "advice": "Geen bijzondere veiligheidsrisico's"
   },
-  "QAT": {
-    "name_nl": "Qatar",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/qatar",
-    "id": "QAT",
-    "name": "Qatar",
-    "advice": "Waakzaamheid betrachten"
+  "POL": {
+    "name_nl": "Polen",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/polen",
+    "id": "POL",
+    "name": "Poland",
+    "advice": "Geen bijzondere veiligheidsrisico's"
   },
-  "ROU": {
-    "name_nl": "Roemenië",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/roemenie",
-    "id": "ROU",
-    "name": "Romania",
+  "NOR": {
+    "name_nl": "Noorwegen",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/noorwegen",
+    "id": "NOR",
+    "name": "Norway",
     "advice": "Geen bijzondere veiligheidsrisico's"
   },
   "PRI": {
@@ -1084,32 +1070,39 @@
     "name": "Puerto Rico",
     "advice": "Waakzaamheid betrachten"
   },
-  "RUS": {
-    "name_nl": "Rusland",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/rusland",
-    "id": "RUS",
-    "name": "Russia",
-    "advice": "Alle reizen naar bepaalde gebieden worden ontraden"
+  "ROU": {
+    "name_nl": "Roemenië",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/roemenie",
+    "id": "ROU",
+    "name": "Romania",
+    "advice": "Geen bijzondere veiligheidsrisico's"
   },
-  "RWA": {
-    "name_nl": "Rwanda",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/rwanda",
-    "id": "RWA",
-    "name": "Rwanda",
-    "advice": "Extra waakzaamheid betrachten"
+  "QAT": {
+    "name_nl": "Qatar",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/qatar",
+    "id": "QAT",
+    "name": "Qatar",
+    "advice": "Waakzaamheid betrachten"
+  },
+  "PAN": {
+    "name_nl": "Panama",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/panama",
+    "id": "PAN",
+    "name": "Panama",
+    "advice": "Niet-essentiële reizen naar bepaalde gebieden worden ontraden"
+  },
+  "PRY": {
+    "name_nl": "Paraguay",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/paraguay",
+    "id": "PRY",
+    "name": "Paraguay",
+    "advice": "Waakzaamheid betrachten"
   },
   "LCA": {
     "name_nl": "Saint Lucia",
     "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/saint-lucia",
     "id": "LCA",
     "name": "Saint Lucia",
-    "advice": "Geen bijzondere veiligheidsrisico's"
-  },
-  "KNA": {
-    "name_nl": "Saint Kitts en Nevis",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/saint-kitts-en-nevis",
-    "id": "KNA",
-    "name": "Saint Kitts and Nevis",
     "advice": "Geen bijzondere veiligheidsrisico's"
   },
   "VCT": {
@@ -1119,19 +1112,19 @@
     "name": "Saint Vincent and the Grenadines",
     "advice": "Geen bijzondere veiligheidsrisico's"
   },
-  "SLB": {
-    "name_nl": "Salomonseilanden",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/salomonseilanden",
-    "id": "SLB",
-    "name": "Solomon Islands",
-    "advice": "Extra waakzaamheid betrachten"
+  "RUS": {
+    "name_nl": "Rusland",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/rusland",
+    "id": "RUS",
+    "name": "Russia",
+    "advice": "Alle reizen naar bepaalde gebieden worden ontraden"
   },
-  "SMR": {
-    "name_nl": "San Marino",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/san-marino",
-    "id": "SMR",
-    "name": "San Marino",
-    "advice": "Geen bijzondere veiligheidsrisico's"
+  "PRT": {
+    "name_nl": "Portugal",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/portugal",
+    "id": "PRT",
+    "name": "Portugal",
+    "advice": "Waakzaamheid betrachten"
   },
   "WSM": {
     "name_nl": "Samoa",
@@ -1140,12 +1133,19 @@
     "name": "Samoa",
     "advice": "Geen bijzondere veiligheidsrisico's"
   },
-  "SAU": {
-    "name_nl": "Saudi-Arabië",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/saudi-arabie",
-    "id": "SAU",
-    "name": "Saudi Arabia",
-    "advice": "Extra waakzaamheid betrachten"
+  "SMR": {
+    "name_nl": "San Marino",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/san-marino",
+    "id": "SMR",
+    "name": "San Marino",
+    "advice": "Geen bijzondere veiligheidsrisico's"
+  },
+  "STP": {
+    "name_nl": "Sao Tomé en Principe",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/sao-tome-en-principe",
+    "id": "STP",
+    "name": "Sao Tome and Principe",
+    "advice": "Waakzaamheid betrachten"
   },
   "SEN": {
     "name_nl": "Senegal",
@@ -1154,19 +1154,19 @@
     "name": "Senegal",
     "advice": "Niet-essentiële reizen naar bepaalde gebieden worden ontraden"
   },
+  "RWA": {
+    "name_nl": "Rwanda",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/rwanda",
+    "id": "RWA",
+    "name": "Rwanda",
+    "advice": "Extra waakzaamheid betrachten"
+  },
   "SRB": {
     "name_nl": "Servië",
     "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/servie",
     "id": "SRB",
     "name": "Serbia",
     "advice": "Waakzaamheid betrachten"
-  },
-  "SLE": {
-    "name_nl": "Sierra Leone",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/sierra-leone",
-    "id": "SLE",
-    "name": "Sierra Leone",
-    "advice": "Geen bijzondere veiligheidsrisico's"
   },
   "SYC": {
     "name_nl": "Seychellen",
@@ -1189,18 +1189,18 @@
     "name": "Slovenia",
     "advice": "Geen bijzondere veiligheidsrisico's"
   },
-  "SOM": {
-    "name_nl": "Somalië",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/somalie",
-    "id": "SOM",
-    "name": "Somalia",
-    "advice": "Alle reizen worden ontraden"
+  "KNA": {
+    "name_nl": "Saint Kitts en Nevis",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/saint-kitts-en-nevis",
+    "id": "KNA",
+    "name": "Saint Kitts and Nevis",
+    "advice": "Geen bijzondere veiligheidsrisico's"
   },
-  "SVK": {
-    "name_nl": "Slowakije",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/slowakije",
-    "id": "SVK",
-    "name": "Slovakia",
+  "SLE": {
+    "name_nl": "Sierra Leone",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/sierra-leone",
+    "id": "SLE",
+    "name": "Sierra Leone",
     "advice": "Geen bijzondere veiligheidsrisico's"
   },
   "ESP": {
@@ -1217,6 +1217,20 @@
     "name": "Sri Lanka",
     "advice": "Waakzaamheid betrachten"
   },
+  "SAU": {
+    "name_nl": "Saudi-Arabië",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/saudi-arabie",
+    "id": "SAU",
+    "name": "Saudi Arabia",
+    "advice": "Extra waakzaamheid betrachten"
+  },
+  "SLB": {
+    "name_nl": "Salomonseilanden",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/salomonseilanden",
+    "id": "SLB",
+    "name": "Solomon Islands",
+    "advice": "Extra waakzaamheid betrachten"
+  },
   "SDN": {
     "name_nl": "Sudan",
     "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/sudan",
@@ -1229,13 +1243,6 @@
     "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/swaziland",
     "id": "SWZ",
     "name": "Swaziland",
-    "advice": "Waakzaamheid betrachten"
-  },
-  "SUR": {
-    "name_nl": "Suriname",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/suriname",
-    "id": "SUR",
-    "name": "Suriname",
     "advice": "Waakzaamheid betrachten"
   },
   "SYR": {
@@ -1259,12 +1266,40 @@
     "name": "Taiwan",
     "advice": "Geen bijzondere veiligheidsrisico's"
   },
-  "TZA": {
-    "name_nl": "Tanzania",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/tanzania",
-    "id": "TZA",
-    "name": "Tanzania",
+  "THA": {
+    "name_nl": "Thailand",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/thailand",
+    "id": "THA",
+    "name": "Thailand",
     "advice": "Niet-essentiële reizen naar bepaalde gebieden worden ontraden"
+  },
+  "SOM": {
+    "name_nl": "Somalië",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/somalie",
+    "id": "SOM",
+    "name": "Somalia",
+    "advice": "Alle reizen worden ontraden"
+  },
+  "TKL": {
+    "name_nl": "Tokelau-eilanden",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/tokelau-eilanden",
+    "id": "TKL",
+    "name": "Tokelau",
+    "advice": "Geen bijzondere veiligheidsrisico's"
+  },
+  "SVK": {
+    "name_nl": "Slowakije",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/slowakije",
+    "id": "SVK",
+    "name": "Slovakia",
+    "advice": "Geen bijzondere veiligheidsrisico's"
+  },
+  "SUR": {
+    "name_nl": "Suriname",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/suriname",
+    "id": "SUR",
+    "name": "Suriname",
+    "advice": "Waakzaamheid betrachten"
   },
   "TGO": {
     "name_nl": "Togo",
@@ -1273,18 +1308,18 @@
     "name": "Togo",
     "advice": "Waakzaamheid betrachten"
   },
-  "THA": {
-    "name_nl": "Thailand",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/thailand",
-    "id": "THA",
-    "name": "Thailand",
+  "TZA": {
+    "name_nl": "Tanzania",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/tanzania",
+    "id": "TZA",
+    "name": "Tanzania",
     "advice": "Niet-essentiële reizen naar bepaalde gebieden worden ontraden"
   },
-  "TKL": {
-    "name_nl": "Tokelau-eilanden",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/tokelau-eilanden",
-    "id": "TKL",
-    "name": "Tokelau",
+  "CZE": {
+    "name_nl": "Tsjechië",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/tsjechie",
+    "id": "CZE",
+    "name": "Czech Republic",
     "advice": "Geen bijzondere veiligheidsrisico's"
   },
   "TON": {
@@ -1294,12 +1329,12 @@
     "name": "Tonga",
     "advice": "Waakzaamheid betrachten"
   },
-  "TUN": {
-    "name_nl": "Tunesië",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/tunesie",
-    "id": "TUN",
-    "name": "Tunisia",
-    "advice": "Alle reizen naar bepaalde gebieden worden ontraden"
+  "TKM": {
+    "name_nl": "Turkmenistan",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/turkmenistan",
+    "id": "TKM",
+    "name": "Turkmenistan",
+    "advice": "Niet-essentiële reizen naar bepaalde gebieden worden ontraden"
   },
   "TTO": {
     "name_nl": "Trinidad en Tobago",
@@ -1308,26 +1343,12 @@
     "name": "Trinidad and Tobago",
     "advice": "Waakzaamheid betrachten"
   },
-  "TCD": {
-    "name_nl": "Tsjaad",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/tsjaad",
-    "id": "TCD",
-    "name": "Chad",
-    "advice": "Alle reizen naar bepaalde gebieden worden ontraden"
-  },
-  "TUR": {
-    "name_nl": "Turkije",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/turkije",
-    "id": "TUR",
-    "name": "Turkey",
-    "advice": "Alle reizen naar bepaalde gebieden worden ontraden"
-  },
-  "TCA": {
-    "name_nl": "Turks- en Caicoseilanden",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/turks-en-caicoseilanden",
-    "id": "TCA",
-    "name": "Turks and Caicos Islands",
-    "advice": "Waakzaamheid betrachten"
+  "TUV": {
+    "name_nl": "Tuvalu",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/tuvalu",
+    "id": "TUV",
+    "name": "Tuvalu",
+    "advice": "Geen bijzondere veiligheidsrisico's"
   },
   "UGA": {
     "name_nl": "Uganda",
@@ -1336,26 +1357,19 @@
     "name": "Uganda",
     "advice": "Niet-essentiële reizen naar bepaalde gebieden worden ontraden"
   },
-  "TUV": {
-    "name_nl": "Tuvalu",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/tuvalu",
-    "id": "TUV",
-    "name": "Tuvalu",
-    "advice": "Geen bijzondere veiligheidsrisico's"
+  "TUN": {
+    "name_nl": "Tunesië",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/tunesie",
+    "id": "TUN",
+    "name": "Tunisia",
+    "advice": "Alle reizen naar bepaalde gebieden worden ontraden"
   },
-  "TKM": {
-    "name_nl": "Turkmenistan",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/turkmenistan",
-    "id": "TKM",
-    "name": "Turkmenistan",
-    "advice": "Niet-essentiële reizen naar bepaalde gebieden worden ontraden"
-  },
-  "URY": {
-    "name_nl": "Uruguay",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/uruguay",
-    "id": "URY",
-    "name": "Uruguay",
-    "advice": "Waakzaamheid betrachten"
+  "TCD": {
+    "name_nl": "Tsjaad",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/tsjaad",
+    "id": "TCD",
+    "name": "Chad",
+    "advice": "Alle reizen naar bepaalde gebieden worden ontraden"
   },
   "VUT": {
     "name_nl": "Vanuatu",
@@ -1371,25 +1385,11 @@
     "name": "Venezuela",
     "advice": "Niet-essentiële reizen naar bepaalde gebieden worden ontraden"
   },
-  "USA": {
-    "name_nl": "Verenigde Staten van Amerika",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/verenigde-staten-van-amerika",
-    "id": "USA",
-    "name": "United States",
-    "advice": "Waakzaamheid betrachten"
-  },
   "ARE": {
     "name_nl": "Verenigde Arabische Emiraten",
     "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/verenigde-arabische-emiraten",
     "id": "ARE",
     "name": "United Arab Emirates",
-    "advice": "Waakzaamheid betrachten"
-  },
-  "GBR": {
-    "name_nl": "Verenigd Koninkrijk",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/verenigd-koninkrijk",
-    "id": "GBR",
-    "name": "United Kingdom",
     "advice": "Waakzaamheid betrachten"
   },
   "VNM": {
@@ -1406,18 +1406,18 @@
     "name": "Wallis and Futuna",
     "advice": "Geen bijzondere veiligheidsrisico's"
   },
-  "ZMB": {
-    "name_nl": "Zambia",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/zambia",
-    "id": "ZMB",
-    "name": "Zambia",
-    "advice": "Waakzaamheid betrachten"
+  "TUR": {
+    "name_nl": "Turkije",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/turkije",
+    "id": "TUR",
+    "name": "Turkey",
+    "advice": "Alle reizen naar bepaalde gebieden worden ontraden"
   },
-  "ZAF": {
-    "name_nl": "Zuid-Afrika",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/zuid-afrika",
-    "id": "ZAF",
-    "name": "South Africa",
+  "TCA": {
+    "name_nl": "Turks- en Caicoseilanden",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/turks-en-caicoseilanden",
+    "id": "TCA",
+    "name": "Turks and Caicos Islands",
     "advice": "Waakzaamheid betrachten"
   },
   "ZWE": {
@@ -1427,12 +1427,33 @@
     "name": "Zimbabwe",
     "advice": "Waakzaamheid betrachten"
   },
+  "ZAF": {
+    "name_nl": "Zuid-Afrika",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/zuid-afrika",
+    "id": "ZAF",
+    "name": "South Africa",
+    "advice": "Waakzaamheid betrachten"
+  },
+  "ZMB": {
+    "name_nl": "Zambia",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/zambia",
+    "id": "ZMB",
+    "name": "Zambia",
+    "advice": "Waakzaamheid betrachten"
+  },
   "KOR": {
     "name_nl": "Zuid-Korea",
     "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/zuid-korea",
     "id": "KOR",
     "name": "Korea South",
     "advice": "Geen bijzondere veiligheidsrisico's"
+  },
+  "SSD": {
+    "name_nl": "Zuid-Sudan",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/zuid-sudan",
+    "id": "SSD",
+    "name": "South Sudan",
+    "advice": "Alle reizen naar bepaalde gebieden worden ontraden"
   },
   "SWE": {
     "name_nl": "Zweden",
@@ -1441,12 +1462,19 @@
     "name": "Sweden",
     "advice": "Geen bijzondere veiligheidsrisico's"
   },
-  "SDS": {
-    "name_nl": "Zuid-Sudan",
-    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/zuid-sudan",
-    "id": "SDS",
-    "name": "South Sudan",
-    "advice": "Alle reizen naar bepaalde gebieden worden ontraden"
+  "GBR": {
+    "name_nl": "Verenigd Koninkrijk",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/verenigd-koninkrijk",
+    "id": "GBR",
+    "name": "United Kingdom",
+    "advice": "Waakzaamheid betrachten"
+  },
+  "URY": {
+    "name_nl": "Uruguay",
+    "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/uruguay",
+    "id": "URY",
+    "name": "Uruguay",
+    "advice": "Waakzaamheid betrachten"
   },
   "CHE": {
     "name_nl": "Zwitserland",

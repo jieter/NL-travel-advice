@@ -49,6 +49,7 @@
 		@media only screen and (max-device-width: 480px) {
 			.info {
 				position: fixed;
+				width: auto;
 				left: 5px;
 				right: 5px;
 				left: 5px;
@@ -178,6 +179,7 @@
 						L.extend(country.properties, travel_advice[country.id], {
 							id: country.id
 						});
+						console.log(country.id, country.properties.name);
 						// 'fix' geometry of Russia and Fuji
 						if (country.id === 'RUS' || country.id === 'FJI') {
 							country.geometry.coordinates.forEach(function (poly, key) {

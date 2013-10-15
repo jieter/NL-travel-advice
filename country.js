@@ -6,15 +6,24 @@ module.exports = new (function () {
 	var list = JSON.parse(fs.readFileSync('iso-3166-1.json', 'utf8'));
 
 	list = list.Results;
-	list['SDS'] = {
+	list['SSD'] = {
 		Name: 'South Sudan',
 		CountryCodes: {
-			iso3: 'SDS'
+			iso3: 'SSD'
 		},
 		Names: {
 			nl: 'Zuid-Sudan'
 		}
-	}
+	};
+	list['RKS'] = {
+		Name: 'Kosovo',
+		CountryCodes: {
+			iso3: 'RKS'
+		},
+		Names: {
+			nl: 'Kosovo'
+		}
+	};
 
 	var test = function (a, b) {
 		var transform = function (s) {
@@ -35,6 +44,14 @@ module.exports = new (function () {
 		}
 	};
 
+	this.get = function (q) {
+		var ret = this.getByISO3(q);
+		if (!ret) {
+			ret = this.getByName(q);
+		}
+		return ret;
+	};
+
 	this.getByISO3 = function (q) {
 		return this.getByCode('iso3', q);
 	};
@@ -44,7 +61,7 @@ module.exports = new (function () {
 		this.each(function (country) {
 			if (test(q, country.CountryCodes[code])) {
 				ret = country;
-			}		
+			}
 		});
 		return ret;
 	};
@@ -62,7 +79,7 @@ module.exports = new (function () {
 					if (test(q, country.Names[lang])) {
 						ret = country;
 					}
-				}		
+				}
 			}
 		});
 		// retry without language

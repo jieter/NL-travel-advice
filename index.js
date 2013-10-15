@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var fs = require('fs');
 var http = require('http');
 var cheerio = require('cheerio');
@@ -18,31 +20,32 @@ function load(url, callback) {
 	});
 }
 var mapNL2EN = function (name) {
-	var map = { 
-		'Amerikaanse Maagdeneilanden': 'Virgin Islands',
-		'Belarus (Wit-Rusland)': 'Belarus',
-		'Birma / Myanmar': 'Myanmar',
-		'Britse Maagdeneilanden': 'British Virgin Islands',
-		'Brunei Darussalam': 'Brunei',
-		'Congo, de Republiek': 'Congo Rebubliek',
-		'Congo, Democratische Republiek': 'Congo Democratische Republiek',
-		'Cookeilanden': 'Cook Islands',
-		'Filipijnen': 'Filippijnen',
-		'Hawaï': '', // part of USA
-		'Hongkong SAR': 'Hongkong',
-		'Ivoorkust': 'Ivory Coast',
-		'Kaaimaneilanden': 'Cayman Islands',
-		'Kaapverdië': 'Cape Verde',
-		'Kosovo': '',
-		'Marshalleilanden': 'Marshall Eilanden',
-		'Pitcairneilanden': 'Pitcairn',
-		'Salomonseilanden': 'Solomon Islands',
-		'Sao Tomé en Principe': '',
-		'Tokelau-eilanden': 'Tokelau',
-		'Tsjechië': 'Czech Republic',
-		'Turks- en Caicoseilanden': 'Turks-en Caicoseilanden',
-		'Verenigde Staten van Amerika': 'Verenigde Staten',
-		'Zuid-Sudan': ''
+	var map = {
+		'Amerikaanse Maagdeneilanden': 'VIR',
+		'Belarus (Wit-Rusland)': 'BLR',
+		'Birma / Myanmar': 'MMR',
+		'Britse Maagdeneilanden': 'VGB',
+		'Brunei Darussalam': 'BRN',
+		'Congo, de Republiek': 'COG',
+		'Congo, Democratische Republiek': 'COD',
+		'Cookeilanden': 'COK',
+		'Filipijnen': 'PHL',
+		'Hawaï': 'USA',
+		'Hongkong SAR': 'HKG',
+		'Ivoorkust': 'CIV',
+		'Kaaimaneilanden': 'CYM',
+		'Kaapverdië': 'CPV',
+		'Kosovo': 'RKS',
+		'Marshalleilanden': 'MHL',
+		'Pitcairneilanden': 'PCN',
+		'Salomonseilanden': 'SLB',
+		'Sao Tomé en Principe': 'STP',
+		'Tokelau-eilanden': 'TKL',
+		'Tsjechië': 'CZE',
+		'Turks- en Caicoseilanden': 'TCA',
+		'Verenigde Staten van Amerika': 'USA',
+		'Zuid-Sudan': 'SSD',
+		'Somaliland': 'SOM'
 	};
 	if (map[name]) {
 		return map[name];
@@ -65,8 +68,8 @@ function countries(callback) {
 				originalUrl: base + a.attr('href')
 			};
 
-			var isoCountry = iso3166.getByName(
-				mapNL2EN(country.name_nl), 
+			var isoCountry = iso3166.get(
+				mapNL2EN(country.name_nl),
 				'nl'
 			);
 			if (!isoCountry) {
@@ -86,7 +89,7 @@ function countries(callback) {
 
 		});
 
-		
+
 	});
 }
 

@@ -28,7 +28,8 @@ module.exports = function (grunt) {
 			js: {
 				files: [
 					'.jshintrc',
-					'*.js'
+					'*.js',
+					'map/*.js'
 				],
 				tasks: ['jshint'],
 				options: {

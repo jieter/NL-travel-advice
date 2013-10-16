@@ -6,19 +6,8 @@
 	"globals": {
 		"L": true,
 		"$": true,
-		"Saillog": true,
-		"console": true,
-		"EpicEditor": true,
-		"marked": true,
-
-		"describe": true,
-		"chai": true,
-		"it": true,
-		"beforeEach": true,
-		"before": true,
-		"afterEach": true,
-		"after": true,
-		"sinon": true
+		"topojson": true,
+		"google": true
 	},
 
 	"bitwise": true,

@@ -3,7 +3,7 @@
 	var map = L.map('map', {
 		zoomControl: !L.Browser.touch
 	}).fitBounds([[-1, -180], [1, 180]]);
-	L.hash(map);
+	map.addHash();
 
 	L.tileLayer('http://services.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}', {
 		attribution: 'Tiles &copy; Esri &mdash; National Geographic, Esri, DeLorme, NAVTEQ, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, iPC',
@@ -125,8 +125,8 @@
 				});
 			}
 		});
-
 	});
+
 
 	var route = function (routeRequest, callback) {
 		routeRequest = L.extend({
@@ -153,5 +153,41 @@
 			}
 		});
 	};
-	// route();
+	L.extend(L.control(), {
+		options: {
+			position: 'bottomleft'
+		},
+		onAdd: function () {
+			var div = L.DomUtil.create('div', 'info route');
+			L.DomUtil.create('h4', '', div).innerHTML = 'Display route';
+			var originSpan = L.DomUtil.create('span', '', div);
+			originSpan.innerHTML = 'Origin';
+
+			var originInput = L.DomUtil.create('input', '', originSpan);
+			originInput.id = 'origin';
+
+			var destinationSpan = L.DomUtil.create('span', '', div);
+			destinationSpan.innerHTML = 'Destination';
+			var destinationInput = L.DomUtil.create('input', '', destinationSpan);
+			destinationInput.id = 'destination';
+
+			function reroute() {
+				var origin = originInput.value;
+				var destination = destinationInput.value;
+
+				if (origin !== '' && destination !== '') {
+					route({
+						origin: origin,
+						destination: destination
+					}, function (polyline) {
+						map.fitBounds(polyline);
+					});
+
+				}
+			};
+			L.DomEvent.on(originInput, 'change', reroute);
+			L.DomEvent.on(destinationInput, 'change', reroute);
+			return div;
+		}
+	}).addTo(map);
 })();

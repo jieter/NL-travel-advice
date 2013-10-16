@@ -1,0 +1,45 @@
+{
+	"browser": true,
+	"node": true,
+	"strict": true,
+
+	"globals": {
+		"L": true,
+		"$": true,
+		"Saillog": true,
+		"console": true,
+		"EpicEditor": true,
+		"marked": true,
+
+		"describe": true,
+		"chai": true,
+		"it": true,
+		"beforeEach": true,
+		"before": true,
+		"afterEach": true,
+		"after": true,
+		"sinon": true
+	},
+
+	"bitwise": true,
+	"camelcase": true,
+	"curly": true,
+	"eqeqeq": true,
+	"forin": false,
+	"immed": true,
+	"latedef": true,
+	"newcap": true,
+	"noarg": true,
+	"noempty": true,
+	"nonew": true,
+	"undef": true,
+	"unused": true,
+	"quotmark": "single",
+	"sub": true,
+
+	"indent": 4,
+	"trailing": true,
+	"white": true,
+	"smarttabs": true,
+	"maxlen": false
+}

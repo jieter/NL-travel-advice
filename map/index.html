@@ -58,169 +58,173 @@
 	</style>
 </head>
 <body>
-	<div id="map"></div>
+<div id="map"></div>
 
-	<script src="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet-src.js"></script>
-	<script src="Polyline.encoded.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
-	<script src="topojson.js"></script>
-	<script src="leaflet-hash.js"></script>
+<script src="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet-src.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+<script src="lib/Polyline.encoded.js"></script>
+<script src="lib/topojson.js"></script>
+<script src="lib/leaflet-hash.js"></script>
 
-	<script type="text/javascript">
+<script type="text/javascript">
 
-		var map = L.map('map', {
-			zoomControl: !L.Browser.touch
-		}).fitBounds([[-1, -180], [1, 180]]);
-		var hash = L.hash(map);
+	var map = L.map('map', {
+		zoomControl: !L.Browser.touch
+	}).fitBounds([[-1, -180], [1, 180]]);
+	var hash = L.hash(map);
 
-		var baselayer = L.tileLayer('http://services.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}', {
-			attribution: 'Tiles &copy; Esri &mdash; National Geographic, Esri, DeLorme, NAVTEQ, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, iPC',
-			maxZoom: 16
-		}).addTo(map);
+	var baselayer = L.tileLayer('http://services.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}', {
+		attribution: 'Tiles &copy; Esri &mdash; National Geographic, Esri, DeLorme, NAVTEQ, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, iPC',
+		maxZoom: 16
+	}).addTo(map);
 
 
-		// control that shows state info on hover
-		var info = L.extend(L.control(), {
-			onAdd: function (map) {
-				this._div = L.DomUtil.create('div', 'info');
-				this.update();
-				return this._div;
-			},
-			update: function (props) {
-				this._div.innerHTML = '<h4>Travel advice Dutch foreign affairs <a href="http://www.rijksoverheid.nl/onderwerpen/reisadviezen/inhoud">source</a></h4>' +  (props ?
-					'<strong>' + props.name + '</strong><br />' +
-					props.advice
-					: 'Hover over a country');
-			}
-		}).addTo(map);
-
-		// get color depending on population density value
-		function getColor(advice) {
-			if (!advice) {
-				return null;
-			}
-			switch (advice.trim()) {
-			case "Alle reizen worden ontraden":
-			case "Alle reizen naar bepaalde gebieden worden ontraden":
-				return '#ff0000';
-
-			case 'Niet-essentiële reizen worden ontraden':
-			case 'Niet-essentiële reizen naar bepaalde gebieden worden ontraden':
-				return '#FF7F00';
-
-			case "Extra waakzaamheid betrachten":
-			case "Waakzaamheid betrachten":
-				return '#aaff00';
-
-			case "Geen bijzondere veiligheidsrisico's":
-				return '#00aa00';
-			default:
-				return '#000000';
-			}
+	// control that shows state info on hover
+	var info = L.extend(L.control(), {
+		onAdd: function (map) {
+			this._div = L.DomUtil.create('div', 'info');
+			this.update();
+			return this._div;
+		},
+		update: function (props) {
+			this._div.innerHTML = '<h4>Travel advice Dutch foreign affairs <a href="http://www.rijksoverheid.nl/onderwerpen/reisadviezen/inhoud">source</a></h4>' +  (props ?
+				'<strong>' + props.name + '</strong><br />' +
+				props.advice
+				: 'Hover over a country');
 		}
+	}).addTo(map);
 
-		function style(feature) {
-			var style = {
-				weight: 1,
-				opacity: 1,
-				color: '#666',
-				dashArray: [1, 4],
-			};
-			var color = getColor(feature.properties.advice);
-			if (color) {
-				L.extend(style, {
-					fillOpacity: 0.4,
-					fillColor: color
-				});
-			}
-			return style;
+	// get color depending on population density value
+	function getColor(advice) {
+		if (!advice) {
+			return null;
 		}
+		switch (advice.trim()) {
+		case "Alle reizen worden ontraden":
+			return '#ff0000';
+		case "Alle reizen naar bepaalde gebieden worden ontraden":
+			return '#aa0000';
 
-		function highlightFeature(e) {
-			var layer = e.target;
+		case 'Niet-essentiële reizen worden ontraden':
+		case 'Niet-essentiële reizen naar bepaalde gebieden worden ontraden':
+			return '#FF7F00';
 
-			layer.setStyle({
-				weight: 2,
-				color: '#666',
-				dashArray: '',
-				fillOpacity: 0.6
+		case "Extra waakzaamheid betrachten":
+		case "Waakzaamheid betrachten":
+			return '#66aa00';
+
+		case "Geen bijzondere veiligheidsrisico's":
+			return '#00aa00';
+		default:
+			return '#000000';
+		}
+	}
+
+	function style(feature) {
+		var style = {
+			weight: 1,
+			opacity: 1,
+			color: '#666',
+			dashArray: [1, 4],
+		};
+		var color = getColor(feature.properties.advice);
+		if (color) {
+			L.extend(style, {
+				fillOpacity: 0.4,
+				fillColor: color
 			});
-
-			info.update(layer.feature.properties);
 		}
+		return style;
+	}
 
-		var geojson;
+	function highlightFeature(e) {
+		var layer = e.target;
 
-		$.getJSON('../NL-travel-advice.json', function (travel_advice) {
-			geojson = L.geoJson(null, {
-				style: style,
-				onEachFeature: function onEachFeature(feature, layer) {
-					layer.on({
-						'mouseover dblclick': highlightFeature,
-						mouseout: function resetHighlight(e) {
-							geojson.resetStyle(e.target);
-							info.update();
-						}
-					});
-				}
-			}).addTo(map);
-
-			$.ajax({
-				url: 'world_50m.topojson',
-				dataType: 'json',
-				success: function (data) {
-					var world = topojson.feature(data, data.objects.world_50m);
-
-					world.features.forEach(function (country) {
-						L.extend(country.properties, travel_advice[country.id], {
-							id: country.id
-						});
-						console.log(country.id, country.properties.name);
-						// 'fix' geometry of Russia and Fuji
-						if (country.id === 'RUS' || country.id === 'FJI') {
-							country.geometry.coordinates.forEach(function (poly, key) {
-								poly[0].forEach(function (coord, c) {
-									if (coord[0] < -90) {
-										country.geometry.coordinates[key][0][c][0] += 360;
-									}
-								});
-							});
-						}
-						if (country.properties.advice) {
-							geojson.addData(country).bringToBack();
-						}
-					});
-				}
-			});
-
+		layer.setStyle({
+			weight: 2,
+			color: '#666',
+			dashArray: '',
+			fillOpacity: 0.6
 		});
 
-		if (true) {
-			var directionsService = new google.maps.DirectionsService();
-			directionsService.route({
-				origin: 'Amsterdam, The Netherlands',
-				waypoints: [
-					{ location: 'Arlit'}
-				],
-				destination: 'Juba',
-				travelMode: google.maps.DirectionsTravelMode.DRIVING
-			}, function(response, status) {
-				if (status !== google.maps.DirectionsStatus.OK) {
-					console.log(status);
-					return;
-				}
-				var encoded = response.routes[0].overview_polyline.points;
-				console.log(encoded);
-				route = L.Polyline.fromEncoded(encoded, {
-					color: 'black',
-					weigth: 2
-				}).addTo(map);
-			});
+		info.update(layer.feature.properties);
+	}
 
-		}
+	var geojson;
+	var travel_advice;
+	$.getJSON('../NL-travel-advice.json', function (advice) {
+		travel_advice = advice;
+		geojson = L.geoJson(null, {
+			style: style,
+			onEachFeature: function onEachFeature(feature, layer) {
+				layer.on({
+					'mouseover dblclick': highlightFeature,
+					'mouseout dblclick': function resetHighlight(e) {
+						geojson.resetStyle(e.target);
+						info.update();
+					}
+				});
+			}
+		}).addTo(map);
+
+		$.ajax({
+			url: '../data/world-50m-topo.json',
+			dataType: 'json',
+			success: function (data) {
+				console.log(data);
+				var world = topojson.feature(data, data.objects.countries);
+
+				world.features.forEach(function (country) {
+					L.extend(country.properties, travel_advice[country.id], {
+						id: country.id
+					});
+					delete travel_advice[country.id];
+
+					// 'fix' geometry of Russia and Fuji
+					if (country.id === 'RUS' || country.id === 'FJI') {
+						country.geometry.coordinates.forEach(function (poly, key) {
+							poly[0].forEach(function (coord, c) {
+								if (coord[0] < -90) {
+									country.geometry.coordinates[key][0][c][0] += 360;
+								}
+							});
+						});
+					}
+					if (country.properties.advice) {
+						geojson.addData(country);
+					}
+				});
+			}
+		});
+
+	});
+
+	if (true) {
+		var directionsService = new google.maps.DirectionsService();
+		directionsService.route({
+			origin: 'Amsterdam, The Netherlands',
+			waypoints: [
+				{ location: 'Arlit'}
+			],
+			destination: 'Juba',
+			travelMode: google.maps.DirectionsTravelMode.DRIVING
+		}, function(response, status) {
+			if (status !== google.maps.DirectionsStatus.OK) {
+				console.log(status);
+				return;
+			}
+			var encoded = response.routes[0].overview_polyline.points;
+			console.log(encoded);
+			route = L.Polyline.fromEncoded(encoded, {
+				color: 'black',
+				weigth: 2
+			}).addTo(map);
+		});
+
+	}
 
 
-	</script>
+</script>
 </body>
 </html>

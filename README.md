@@ -10,9 +10,11 @@ world-50m-topo.json: shp/ne_50m_admin_0_countries.shp
 	$(TOPOJSON) -q 1e5 -s 1e-5 --id-property=iso_a3 -- countries=shp/ne_50m_admin_0_countries.shp > ../../data/$@
 ```
 
+Note that grunt-tasks do not work yet.
+
 ## Ideas
 
-- Collapse island groups to simpler geomteries (bounding box).
+- Collapse island groups to simpler geometeries (bounding box), saves lots of data for Greenland and allows more detail elsewhere.
 
 
 ## Missing/disputed regions

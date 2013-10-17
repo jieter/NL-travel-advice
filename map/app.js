@@ -184,7 +184,8 @@
 					});
 
 				}
-			};
+			}
+
 			L.DomEvent.on(originInput, 'change', reroute);
 			L.DomEvent.on(destinationInput, 'change', reroute);
 			return div;

@@ -7,14 +7,15 @@ This repo provides a grunt script to scrape travel advice from the website of th
 Extra target for the `world-atlas` Makefile.
 ```
 world-50m-topo.json: shp/ne_50m_admin_0_countries.shp
-	$(TOPOJSON) -q 1e5 -s 1e-6 --id-property=iso_a3 -- countries=shp/ne_50m_admin_0_countries.shp > $@
+	$(TOPOJSON) -q 1e5 -s 1e-5 --id-property=iso_a3 -- countries=shp/ne_50m_admin_0_countries.shp > ../../data/$@
 ```
 
-## Idea
+## Ideas
 
-- Collapse island groups to bounding box.
+- Collapse island groups to simpler geomteries (bounding box).
 
 
 ## Missing/disputed regions
+ - NL is missing: no travel advice for own country.
  - Somaliland region
  - Western Sahara region

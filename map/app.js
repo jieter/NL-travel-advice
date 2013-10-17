@@ -89,10 +89,14 @@
 			style: layerStyle,
 			onEachFeature: function onEachFeature(feature, layer) {
 				layer.on({
-					'mouseover dblclick': highlightFeature,
-					'mouseout click': function resetHighlight(e) {
+					'mouseover': highlightFeature,
+					'mouseout': function resetHighlight(e) {
 						geojson.resetStyle(e.target);
 						info.update();
+					},
+					'click': function (e) {
+						geojson.resetStyle(e.target);
+						highlightFeature(e);
 					}
 				});
 			}
@@ -155,11 +159,11 @@
 	};
 	L.extend(L.control(), {
 		options: {
-			position: 'bottomleft'
+			position: 'bottomright'
 		},
 		onAdd: function () {
 			var div = L.DomUtil.create('div', 'info route');
-			L.DomUtil.create('h4', '', div).innerHTML = 'Display route';
+			L.DomUtil.create('h4', '', div).innerHTML = 'Display route on the map';
 			var originSpan = L.DomUtil.create('span', '', div);
 			originSpan.innerHTML = 'Origin';
 

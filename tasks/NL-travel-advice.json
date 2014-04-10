@@ -81,7 +81,7 @@
     "name": "Australia",
     "name_nl_NL": "Australië",
     "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/australie",
-    "advice": "Geen bijzondere veiligheidsrisico's"
+    "advice": "Waakzaamheid betrachten"
   },
   "AZE": {
     "id": "AZE",
@@ -277,7 +277,7 @@
     "name": "Congo Republic",
     "name_nl_NL": "Congo, de Republiek",
     "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/congo-de-republiek",
-    "advice": "Waakzaamheid betrachten"
+    "advice": "Extra waakzaamheid betrachten"
   },
   "COD": {
     "id": "COD",
@@ -697,7 +697,7 @@
     "name": "Kosovo",
     "name_nl_NL": "Kosovo",
     "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/kosovo",
-    "advice": "Waakzaamheid betrachten"
+    "advice": "Niet-essentiële reizen worden ontraden"
   },
   "HRV": {
     "id": "HRV",
@@ -816,7 +816,7 @@
     "name": "Mali",
     "name_nl_NL": "Mali",
     "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/mali",
-    "advice": "Alle reizen worden ontraden"
+    "advice": "Alle reizen naar bepaalde gebieden worden ontraden"
   },
   "MLT": {
     "id": "MLT",
@@ -907,7 +907,7 @@
     "name": "Mozambique",
     "name_nl_NL": "Mozambique",
     "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/mozambique",
-    "advice": "Extra waakzaamheid betrachten"
+    "advice": "Niet-essentiële reizen naar bepaalde gebieden worden ontraden"
   },
   "NAM": {
     "id": "NAM",
@@ -977,7 +977,7 @@
     "name": "Korea North",
     "name_nl_NL": "Noord-Korea",
     "originalUrl": "http://www.rijksoverheid.nl/onderwerpen/reisadviezen/noord-korea",
-    "advice": "Niet-essentiële reizen worden ontraden"
+    "advice": "Waakzaamheid betrachten"
   },
   "NOR": {
     "id": "NOR",

@@ -84,7 +84,7 @@
 	};
 	var geojson;
 
-	$.getJSON('../NL-travel-advice.json', function (advice) {
+	$.getJSON('../tasks/NL-travel-advice.json', function (advice) {
 		geojson = L.geoJson(null, {
 			style: layerStyle,
 			onEachFeature: function onEachFeature(feature, layer) {
